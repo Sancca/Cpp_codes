@@ -1,0 +1,35 @@
+﻿  main.cpp
+C:\Users\Carlos\source\repos\HW11\HW11\main.cpp(50,28): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.25.28610\include\thread(43,14): error C2672: 'std::invoke': no matching overloaded function found
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.25.28610\include\thread(49): message : see reference to function template instantiation 'unsigned int std::thread::_Invoke<_Tuple,0,1,2,3,4,5>(void *) noexcept' being compiled
+          with
+          [
+              _Tuple=_Tuple
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.25.28610\include\thread(55): message : see reference to function template instantiation 'unsigned int (__stdcall *std::thread::_Get_invoke<_Tuple,0,1,2,3,4,5>(std::integer_sequence<size_t,0,1,2,3,4,5>) noexcept)(void *)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.25.28610\include\xmemory(670): message : see reference to function template instantiation 'std::thread::thread<void(__cdecl &)(int,int,int,int,int **),int&,int&,const int&,const int&,double**&,0>(_Fn,int &,int &,const int &,const int &,double **&)' being compiled
+          with
+          [
+              _Fn=void (__cdecl &)(int,int,int,int,int **)
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.25.28610\include\vector(682): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,void(__cdecl &)(int,int,int,int,int **),int&,int&,const int&,const int&,double**&>(_Alloc &,_Objty *const ,void (__cdecl &)(int,int,int,int,int **),int &,int &,const int &,const int &,double **&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::thread>,
+              _Ty=std::thread,
+              _Objty=std::thread
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.25.28610\include\vector(687): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,void(__cdecl &)(int,int,int,int,int **),int&,int&,const int&,const int&,double**&>(_Alloc &,_Objty *const ,void (__cdecl &)(int,int,int,int,int **),int &,int &,const int &,const int &,double **&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::thread>,
+              _Ty=std::thread,
+              _Objty=std::thread
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.25.28610\include\vector(700): message : see reference to function template instantiation 'void std::vector<std::thread,std::allocator<std::thread>>::_Emplace_back_with_unused_capacity<void(__cdecl &)(int,int,int,int,int **),int&,int&,const int&,const int&,double**&>(void (__cdecl &)(int,int,int,int,int **),int &,int &,const int &,const int &,double **&)' being compiled
+C:\Users\Carlos\source\repos\HW11\HW11\main.cpp(80): message : see reference to function template instantiation 'void std::vector<std::thread,std::allocator<std::thread>>::emplace_back<void(__cdecl &)(int,int,int,int,int **),int&,int&,const int&,const int&,double**&>(void (__cdecl &)(int,int,int,int,int **),int &,int &,const int &,const int &,double **&)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.25.28610\include\thread(39,5): error C2893: Failed to specialize function template 'unknown-type std::invoke(_Callable &&,_Types &&...) noexcept(<expr>)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.25.28610\include\type_traits(1610): message : see declaration of 'std::invoke'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.25.28610\include\thread(39,5): message : With the following template arguments:
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.25.28610\include\thread(39,5): message : '_Callable=void (__cdecl *)(int,int,int,int,int **)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.25.28610\include\thread(39,5): message : '_Types={int, int, int, int, double **}'
